@@ -1,0 +1,78 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	tizona: {
+		DisplayName: Tizona
+		Tooltip: Has a chance to cause Bleeding
+	}
+
+	soulofblight: {
+		DisplayName: Soul of Blight
+		Tooltip: "'The essence of infected creatures'"
+	}
+
+	tonbogiri: {
+		DisplayName: Tonbogiri
+		Tooltip: A legendary Japanese spear coated in venom
+	}
+
+	adragonmask: {
+		SetBonus: 21% increased melee and movement speed
+		DisplayName: Dragon Mask
+		Tooltip:
+			'''
+			16% increased melee speed and damage
+			16% increased critical strike chance
+			'''
+	}
+
+	bdragonbreastplate: {
+		DisplayName: Dragon Breastplate
+		Tooltip:
+			'''
+			10% increased critical strike chance
+			5% increased melee damage
+			'''
+	}
+
+	cdragongreaves: {
+		DisplayName: Dragon Greaves
+		Tooltip:
+			'''
+			12% increased movement speed
+			2% increased melee speed
+			'''
+	}
+
+	atitanhelmet: {
+		SetBonus: 28% chance to not consume ammo
+		DisplayName: Titan Helmet
+		Tooltip:
+			'''
+			15% increased ranged damage
+			10% increased ranged critical strike chance
+			5% chance to not consume ammo
+			'''
+	}
+
+	btitanmail: {
+		DisplayName: Titan Mail
+		Tooltip:
+			'''
+			5% increased ranged damage
+			10% increased ranged critical strike chance
+			5% chance to not consume ammo
+			'''
+	}
+
+	ctitanleggings: {
+		DisplayName: Titan Leggings
+		Tooltip:
+			'''
+			10% increased movement speed and ranged damage
+			10% chance to not consume ammo
+			'''
+	}
+}
+
+Projectiles.tonbogiriproj.DisplayName: tonbogiriproj
