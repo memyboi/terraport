@@ -1,0 +1,13 @@
+[item:273] [c/FF0000:Ultimate nostalgia mod.] [item:675]
+
+Terraport is a mod that recreates legacy console ports of terraria to 1.4.4.9!
+
+This mod will have all of the 3ds/mobile content, and all of the console content too. It is a mish-mash of all three versions.
+Using a wiki may lead to inaccurate information, so I recommend playing blind.
+
+I'd recommend starting a new world for this mod specifically. This is because I needed to rewrite the code of several weapons, which cannot be applied to the vanilla item (afaik).
+Also, it's fun to start from scratch sometimes!
+
+[c/FF0000:WARNING:] Made on the FNA (Mac/Linux) port of terraria. There likely will be (more) bugs on the XNA (Windows) build of terraria.
+
+All of the source code (and more information) can be found here: https://github.com/memyboi/terraport
