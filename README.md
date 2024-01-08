@@ -2,8 +2,10 @@
 Porting 3DS/Console Terraria to [tModLoader](https://github.com/tModLoader/tModLoader) 1.4.4.9
 
 ## Warning:
-I'm not claiming that I am amazing at C#. Far from that. Please, if you find any issues with my laggy, bloated code, please submit a pull request if you feel like you can change it.
-Currently no official binaries. It will be released later in this mods life, when it is ready for distribution. For now, just clone this repo and put it into the modSources folder in tModLoader's steam directory, download .NET 6.0 sdk (a pain to do on linux cuz of microsoft), and press build & compile.
+I'm not claiming that I am amazing at C#. Far from that. Please, if you find any issues with my awful, bloated code, please submit a pull request if you feel like you can change it.
+
+## Installation:
+Currently no official binaries. It will be released later in this mod's life, when it is ready for distribution. For now, just clone this repo and put it into the modSources folder in tModLoader's steam directory, download .NET 6.0 sdk (a pain to do on linux cuz of microsoft), and press build & compile.
 
 ## About:
 Recently, I have been getting back into Terraria. I remember playing a WHOLE LOT of terraria on my old PS3 when I was younger. As of late, I no longer know where my old PS3 is, so the only logical solution is to spend months making a mod to bring back that experience that I remember. (I'm not even joking, this is what happens when you have too much freetime)
@@ -18,7 +20,8 @@ Here is a basic, not regularly updated list of what *is* implemented:
 - Added Tizona, Tonbogiri (wip), Dragon armour (wip), Titan armour and their crafting recipes.
 
 ## Sources:
-Obviously, I don't remember EVERYTHING that was in the old console ports. Here are a few websites that I used (or that I remember using) to help me make this mod:
+Obviously, I don't remember EVERYTHING that was in the old console ports.  
+Here are a few websites that I used (or that I remember using) to help me make this mod:
 https://www.google.co.uk/ ; any frantic googlers here?  
 https://stackoverflow.com/ ; incredibly useful source  
 https://www.spriters-resource.com/pc_computer/terraria/sheet/66755/ ; some sprites ripped directly from the mobile port  
