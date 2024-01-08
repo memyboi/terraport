@@ -4,8 +4,8 @@ Porting 3DS/Console Terraria to [tModLoader](https://github.com/tModLoader/tModL
 ## Warnings:
 I'm not claiming that I am amazing at C#. Far from that. Please, if you find any issues with my awful, bloated code, please submit a pull request if you feel like you can change it.
 
-Only one localisation file, that being US english (to lower my current workload)
-US/UK/Polish localisation will be available at full release
+Only one localisation file, that being US english (to lower my current workload)  
+US/UK/Polish localisation will be available at full release.
 
 ## Installation:
 Currently no official binaries. It will be released later in this mod's life, when it is ready for distribution. For now, just clone this repo and put it into the modSources folder in tModLoader's steam directory, download .NET 6.0 sdk (a pain to do on linux cuz of microsoft), and press build & compile.
