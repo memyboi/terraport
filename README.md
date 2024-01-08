@@ -1,5 +1,5 @@
 # Terraport
-Porting 3DS/Console Terraria to [tModLoader](https://github.com/tModLoader/tModLoader) 1.4.4.9
+Porting 3DS/Console Terraria to [tModLoader](https://github.com/tModLoader/tModLoader) 1.4.4.9 - Who needs Quality of Life anyway?
 
 ## Warnings:
 I'm not claiming that I am amazing at C#. Far from that. Please, if you find any issues with my awful, bloated code, please submit a pull request if you feel like you can change it.
