@@ -4,6 +4,10 @@ Do you ever look at terraria, and just wish it was 100x worse?
 Well, introducing:
 Porting 3DS/Console Terraria to [tModLoader](https://github.com/tModLoader/tModLoader) 1.4.4.9 - Who needs Quality of Life anyway?
 
+Now, with -260 more mobs,
+     with {insert here} more items,
+     and with -5 more bosses!
+
 ## Warnings:
 I'm not claiming that I am amazing at C#. Far from that. Please, if you find any issues with my awful, bloated code, please submit a pull request if you feel like you can change it.
 
