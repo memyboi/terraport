@@ -1,4 +1,7 @@
 # Terraport
+Do you ever look at terraria, and just wish it was 100x worse?
+
+Well, introducing:
 Porting 3DS/Console Terraria to [tModLoader](https://github.com/tModLoader/tModLoader) 1.4.4.9 - Who needs Quality of Life anyway?
 
 ## Warnings:
