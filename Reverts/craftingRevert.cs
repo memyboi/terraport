@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
+using terraport.Items.Weapons.fakes;
 
 namespace terraport.Reverts
 {
@@ -16,12 +17,31 @@ namespace terraport.Reverts
 		}
 
         public override void AddRecipes() {
-            Recipe depth = Recipe.Create(ItemID.DepthMeter)
+            Recipe.Create(ItemID.DepthMeter)
 			    .AddRecipeGroup("CopperBar", 10)
                 .AddRecipeGroup("SilverBar", 8)
                 .AddRecipeGroup("GoldBar", 6)
 			    .AddTile(TileID.Tables)
                 .AddTile(TileID.Chairs)
+			    .Register();
+
+            Recipe.Create(ModContent.ItemType<faketerrablade>())
+			    .AddIngredient(ItemID.BrokenHeroSword)
+                .AddIngredient(ModContent.ItemType<fakestexcalibur>())
+                .AddIngredient(ModContent.ItemType<fakenightsedge>())
+			    .AddTile(TileID.MythrilAnvil)
+			    .Register();
+
+            Recipe.Create(ModContent.ItemType<fakestexcalibur>())
+			    .AddIngredient(ItemID.BrokenHeroSword)
+                .AddIngredient(ItemID.Excalibur)
+			    .AddTile(TileID.MythrilAnvil)
+			    .Register();
+            
+            Recipe.Create(ModContent.ItemType<fakenightsedge>())
+			    .AddIngredient(ItemID.BrokenHeroSword)
+                .AddIngredient(ItemID.NightsEdge)
+			    .AddTile(TileID.MythrilAnvil)
 			    .Register();
         }
 
@@ -414,6 +434,16 @@ namespace terraport.Reverts
                 } else if (recipe.HasResult(ItemID.VoidVault)) {
                     recipe.DisableRecipe();
                 } else if (HasIngredient(ItemID.StaffofRegrowth)) {
+                    recipe.DisableRecipe();
+                } else if (HasIngredient(ItemID.TrueNightsEdge)) {
+                    recipe.DisableRecipe();
+                } else if (HasIngredient(ItemID.TrueExcalibur)) {
+                    recipe.DisableRecipe();
+                } else if (recipe.HasResult(ItemID.TrueNightsEdge)) {
+                    recipe.DisableRecipe();
+                } else if (recipe.HasResult(ItemID.TrueExcalibur)) {
+                    recipe.DisableRecipe();
+                } else if (recipe.HasResult(ItemID.WormholePotion)) {
                     recipe.DisableRecipe();
                 }
 
