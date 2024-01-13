@@ -12,21 +12,13 @@ namespace terraport
 
         public static string getStringFromBool(bool variable)
         {
-
-            // getting the value of string property
             string value = variable.ToString();
-
-            // print the string property
             return value;
         }
 
         public static string getStringFromInt(int variable)
         {
-
-            // getting the value of string property
             string value = variable.ToString();
-
-            // print the string property
             return value;
         }
 
@@ -36,6 +28,18 @@ namespace terraport
         public bool titanMail;
         public bool titanHelmet;
         public bool titanLeggings;
+
+        public int fakenightsedgecooldown;
+        public int fakenightsedgecooldowntimer = 0;
+        public bool fakenightsedgestart;
+
+        public int fakeexcaliburcooldown;
+        public int fakeexcaliburcooldowntimer = 0;
+        public bool fakeexcaliburstart;
+
+        public int faketerrabladecooldown;
+        public int faketerrabladecooldowntimer = 0;
+        public bool faketerrabladestart;
 
         public override void ResetEffects() {
             titanMail = false;
@@ -53,6 +57,34 @@ namespace terraport
             totalAR = titanTotalAR;
             int leRandom = Main.rand.Next(100);
             return leRandom >= totalAR;
+        }
+
+        public override void FrameEffects()
+        {
+            if (fakenightsedgestart) {
+                if (fakenightsedgecooldowntimer < fakenightsedgecooldown) {
+                    fakenightsedgecooldowntimer += 1;
+                } else {
+                    fakenightsedgecooldowntimer = 0;
+                    fakenightsedgestart = false;
+                }
+            }
+            if (fakeexcaliburstart) {
+                if (fakeexcaliburcooldowntimer < fakeexcaliburcooldown) {
+                    fakeexcaliburcooldowntimer += 1;
+                } else {
+                    fakeexcaliburcooldowntimer = 0;
+                    fakeexcaliburstart = false;
+                }
+            }
+            if (faketerrabladestart) {
+                if (faketerrabladecooldowntimer < faketerrabladecooldown) {
+                    faketerrabladecooldowntimer += 1;
+                } else {
+                    faketerrabladecooldowntimer = 0;
+                    faketerrabladestart = false;
+                }
+            }
         }
     }
 }

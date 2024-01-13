@@ -16,7 +16,9 @@ Only one localisation file, that being English (to lower my current workload)
 Polish localisation will be available at full release (likely), but i'd need help from other people to get other languages translated.
 
 ## Installation:
-Currently no official binaries. It will be released later in this mod's life, when it is ready for distribution. For now, just clone this repo and put it into the modSources folder in tModLoader's steam directory, download .NET 6.0 sdk (a pain to do on linux cuz of microsoft), and press build & compile.
+Please download one of the official binaries here (ill add a link later)
+Unfortunately, compiling this project will be impossible without tampering. I have not included ANY official assets, as to not get DMCA'd.
+This means compiling would require going through websites which have all of the original assets, and ripping them into the /Reverts/Images/ folder.
 
 ## About:
 Recently, I have been getting back into Terraria. I remember playing a WHOLE LOT of terraria on my old PS3 when I was younger. As of late, I no longer know where my old PS3 is, so the only logical solution is to spend months making a mod to bring back that experience that I remember. (I'm not even joking, this is what happens when you have too much freetime)
