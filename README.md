@@ -31,6 +31,8 @@ Here is a basic, not regularly updated list of what *is* implemented:
 - Shortswords reverted to 1.3 variant
 - Added souls of blights, incomplete sprite, dropped from EoC temporarily
 - Added Tizona, Tonbogiri (wip), Dragon armour (wip), Titan armour and their crafting recipes.
+- Borked roughly 1700 items
+- Borked most (if not all) 1.3-present npcs
 
 ## Sources:
 Obviously, I don't remember EVERYTHING that was in the old console ports.  
