@@ -16,8 +16,8 @@ Only one localisation file, that being English (to lower my current workload)
 Polish localisation will be available at full release (likely), but i'd need help from other people to get other languages translated.
 
 ## Installation:
-Please download one of the official binaries here (ill add a link later)
-Unfortunately, compiling this project will be impossible without tampering. I have not included ANY official assets, as to not get DMCA'd.
+Please download one of the official binaries [here](https://github.com/memyboi/terraport/releases)  
+Unfortunately, compiling this project will be impossible without tampering. I have not included ANY official assets, as to not get DMCA'd.  
 This means compiling would require going through websites which have all of the original assets, and ripping them into the /Reverts/Images/ folder.
 
 ## About:
