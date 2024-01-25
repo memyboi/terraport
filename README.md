@@ -17,11 +17,13 @@ Polish localisation will be available at full release (likely), but i'd need hel
 
 ## Installation:
 Please download one of the official binaries [here](https://github.com/memyboi/terraport/releases)  
-Unfortunately, compiling this project will be impossible without tampering. I have not included ANY official assets, as to not get DMCA'd.  
+Unfortunately, compiling this project will be impossible without tampering. I have not included ANY official assets, as to not get DMCA'd (or something idfk im too lazy).  
 This means compiling would require going through websites which have all of the original assets, and ripping them into the /Reverts/Images/ folder.
 
 ## About:
 Recently, I have been getting back into Terraria. I remember playing a WHOLE LOT of terraria on my old PS3 when I was younger. As of late, I no longer know where my old PS3 is, so the only logical solution is to spend months making a mod to bring back that experience that I remember. (I'm not even joking, this is what happens when you have too much freetime)
+
+(EDIT - found my ps3, but all of my old saves are gone :( )
 
 ## Changes:
 As of now, not much has been implemented (due to recency).  
