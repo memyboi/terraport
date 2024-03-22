@@ -38,7 +38,7 @@ Here is a basic, not regularly updated list of what *is* implemented:
 
 ## Sources:
 Obviously, I don't remember EVERYTHING that was in the old console ports.  
-Here are a few websites that I used (or that I remember using) to help me make this mod:
+Here are a few websites that I used (or that I remember using) to help me make this mod:  
 https://www.google.co.uk/ ; any frantic googlers here?  
 https://stackoverflow.com/ ; incredibly useful source  
 https://www.spriters-resource.com/pc_computer/terraria/sheet/66755/ ; some sprites ripped directly from the mobile port  
