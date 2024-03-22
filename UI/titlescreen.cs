@@ -10,7 +10,7 @@ using ReLogic.Content;
 
 namespace terraport.UI
 {
-    public class titlescreen : ModMenu
+    public class terraporttitlescreen : ModMenu
     {
         public override string DisplayName => "Terraport";
         public override int Music => 60; //60 => console music
